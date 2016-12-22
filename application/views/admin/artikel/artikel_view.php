@@ -1,7 +1,7 @@
 <div class="konten">
 	<h1 align="center">Content Management System</h1>
 	<div align="right">
-		<a href="<?php echo base_url() ?>admin/artikel/tambah" class="tambah">Tambah Artikel</a>
+		<a href="<?php echo base_url() ?>admin/artikel/tambah" class="tambah">Tambah Artikel</a> <!-- link yang mengarah ke class tambah---->
 	</div>
 
 	<p>DAFTAR ARTIKEL</p>

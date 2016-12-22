@@ -18,8 +18,8 @@
 		<p>
 			<label for="status_artikel">Status Artikel</label>
 			<select name="status_artikel" id="status_artikel">
-				<option value="Publish">Publikasikan</option>
-				<option value="Draft">Simpan sebagai draft</option>
+				<option value="Publish">Publikasikan</option> <!-- option u tuk meng publish artikel-->
+				<option value="Draft">Simpan sebagai draft</option> <!-- option u tuk menyimpan artikel ke draf artikel-->
 			</select>
 			<!-- UNTUK KEPERLUAN PENGUJIAN, ID USER KITA SET MANUAL DULU -->
 			<input name="id_user" type="hidden" id="id_user" value="1"> 
