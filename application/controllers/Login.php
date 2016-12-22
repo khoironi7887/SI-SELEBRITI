@@ -6,3 +6,4 @@ class Login extends CI_Controller {
 		$this->load->view(‘admin/login_view’,$data);
 	}
 }
+/*fungsi untuk login admin*/
