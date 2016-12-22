@@ -19,7 +19,7 @@ class Artikel_model extends CI_Model {
 		return $this->db->insert('artikel', $data);
 	}
 
-	// Kode untuk menampilkan detail artikel
+	// Kode untuk menampilkan detail artikel 
 	public function detail_artikel($id = FALSE) {
 		if ($id == FALSE) {
 		$query = $this->db->get('artikel');
@@ -35,7 +35,7 @@ class Artikel_model extends CI_Model {
  return $this->db->update('artikel', $data);
  }
  
- // Kode untuk melakukan fungsi Delete
+ // Kode untuk melakukan fungsi Deletee
  public function delete_artikel($id) {
  $this->db->where('id_artikel', $id);
  return $this->db->delete('artikel');
